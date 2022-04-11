@@ -1,0 +1,17 @@
+.background1{background-image:url("fondo.jpeg"); background-repeat: repeat; background-size: 100%;}
+
+.container{ max-width: 960px; }
+
+.titulos{background: #000; opacity: 0.3; background-size: 5rem;}
+h1{text-shadow: 2px 4px 4px black;  }
+
+.navbar{background:rgba(155, 63, 191, 0.5);}
+
+.card-title{text-align:center; font-size: 1rem; font-family: arial: }
+
+.card-body{max-height: 3rem;}
+
+.card{border-radius: 1px;}
+
+a:hover{font-size:102%;}
+
