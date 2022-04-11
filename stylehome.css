@@ -6,22 +6,25 @@ html, body
  overflow: hidden
 }
 
+img{
+  ansimation: zoom-in-zoom-out 30s ease infinite;
+
+}
+
+a{text-decoration: none; color: #FFF;}
+
+a:hover{text-decoration: none; color: #fff;  }
+
 .background{
 background-image: url("productos/titulo.jpeg");
 background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-background-color: #000;
+background-color: rgba(155, 63, 191) ;
 animation: zoom-in-zoom-out 30s ease infinite;
 }
 
-}
-
-img{
-	ansimation: zoom-in-zoom-out 30s ease infinite;
-
-}
 
 .container{
 
@@ -41,9 +44,7 @@ box-shadow: #000;
 .btnI{background: rgba(255, 144, 0, 0.7);}
 .btnI:hover{background-color: rgba(155, 63, 191, 0.7);}
 
-a{text-decoration: none; color: #FFF;}
 
-a:hover{text-decoration: none; color: #fff;  }
 
 @keyframes zoom-in-zoom-out {
   0% {

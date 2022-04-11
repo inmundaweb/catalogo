@@ -1,4 +1,9 @@
-.background1{background-image:url("fondo.jpeg"); background-repeat: repeat; background-size: 100%;}
+.background1{background-image:url("fondo.jpeg");
+ background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: rgba(155, 63, 191) ;}
 
 .container{ max-width: 960px; }
 
