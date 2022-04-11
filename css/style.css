@@ -11,7 +11,12 @@ background-color: rgba(155, 63, 191) ;}
 .titulos{background: #000; opacity: 0.3; background-size: 5rem;}
 h1{text-shadow: 2px 4px 4px black;  }
 
-.navbar{background:rgba(155, 63, 191, 0.5);}
+.bg-navbar{background: rgb(75,0,130);
+ background:-webkit-linear-gradient(rgba(75,0,130,1) 0%, rgba(255,255,255,0) 83%);
+background:-o-linear-gradient(rgba(75,0,130,1) 0%, rgba(255,255,255,0) 83%);
+background: -moz--linear-gradient(rgba(75,0,130,1) 0%, rgba(255,255,255,0) 83%);
+background: linear-gradient(rgba(75,0,130,1) 0%, rgba(255,255,255,0) 83%);
+}
 
 
 .card-title{text-align:center; font-size: 1rem; font-family: arial: }
@@ -21,5 +26,5 @@ h1{text-shadow: 2px 4px 4px black;  }
 .card{border-radius: 1px;
 box-shadow: 2px 3px 20px black;}
 
-a:hover{font-size:102%;}
+a:hover{font-size:90%;}
 
