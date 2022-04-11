@@ -16,7 +16,8 @@ h1{text-shadow: 2px 4px 4px black;  }
 
 .card-body{max-height: 3rem;}
 
-.card{border-radius: 1px;}
+.card{border-radius: 1px;
+box-shadow: 2px 3px 10px black;}
 
 a:hover{font-size:102%;}
 
